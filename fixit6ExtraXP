@@ -1,0 +1,10 @@
+var myNumbers = [34, 56, 117, 324, 183, 231, 72, 111, -10, 207]
+let method = prompt("Do you want a sum or an average of these numbers?")
+if (method == 'sum') {
+  alert("The sum of the 10 numbers is " + myNumbers.reduce(function(a, b){ return a + b; }) +".");
+} else if (method == 'average') {
+  alert("The average of the 10 numbers is " + myNumbers.reduce(function(a, b){ return a + b; })/myNumbers.length + ".");
+} else {
+  alert("You did not ask for an average or sum of the numbers.");
+}
+  
