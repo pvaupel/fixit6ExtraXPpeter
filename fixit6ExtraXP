@@ -7,4 +7,15 @@ if (method == 'sum') {
 } else {
   alert("You did not ask for an average or sum of the numbers.");
 }
-  
+
+let numberOne = prompt("What is the first number you want to add?")
+let numberTwo = prompt("What is the second number you want to add?")
+let numberThree = prompt("What is the third number you want to add?")
+
+myNumbers.push(numberOne, numberTwo, numberThree)
+/* attempted to change strings to numbers*/
+Number(numberOne);
+Number(numberTwo);
+Number(numberThree);
+
+alert("The current last number in the array plus ten is " + myNumbers.pop() += 10 + ".");
